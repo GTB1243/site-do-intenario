@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/* Estilos para o cabeçalho */
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/18/22/14/nature-5061217_1280.jpg'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real para sua imagem de fundo */
+    background-size: cover; /* Isso garante que a imagem cubra todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: rgb(209, 204, 204);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; /* Cor do texto */
+    font-size: 95px; /* Tamanho da fonte */
+    margin-bottom: 30px; /* Margem inferior */
+    /* Adicione mais estilos conforme necessário */
+}
+
+/* Estilo da cor dos links*/
+a {
+    color: rgb(69, 67, 221);
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #f9ffff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #116104;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .img-container img {
+    max-width: 50px; /* Ajusta conforme necessário */
+    height: auto;
+  }
+
+  .img-container img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .img-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+body {
+    margin: 25px;
+}
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    overflow: hidden; /* Para evitar que a sombra seja cortada pela imagem */
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+body{
+    font-family: Arial, sans-serif; /* Define a fonte do parágrafo */
+    font-size: 16px; /* Define o tamanho da fonte */
+    line-height: 1.5; /* Define a altura da linha para melhor legibilidade */
+    color: #333; /* Define a cor do texto */
+    margin-bottom: 25px; /* Adiciona um espaço entre os parágrafos */
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 900; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+}
+h3 {
+    color: #333; /* Cor do texto */
+    font-size: 27px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    font-family: 'Open Sans', sans-serif; /* Estilo da fonte */
+    margin-bottom: 20px; /* Margem inferior */
+}   
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+
+nav {
+    background-color: #f9ffff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #17570d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h3 {
+    color: #13b378;
+}
+
+article h2 {
+    color: #20ae7a;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+article p {
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    margin-right: 20px;
+    max-width: 300px;
+    height: auto;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+main {
+    max-width: 1000px; /* Ajuste o valor conforme necessário */
+    margin: 0 auto; /* Centralizar o conteúdo na página */
+}
+
+/* Adicionar margens para espaçamento */
+article {
+    margin-bottom: 30px; /* Espaço entre os artigos */
+}
+
+body {
+    border: 10px solid #000000; /* Adiciona uma borda sólida de 5px em torno do corpo */
+    box-sizing: border-box; /* Garante que a largura da borda seja incluída no cálculo total */
+}
+
+/* Adicionar espaçamento interno para evitar que o conteúdo encoste nas bordas */
+body {
+    padding: 0px; /* Adiciona um espaçamento interno de 20px em torno do conteúdo */
+}
+
+/* Adicionar bordas laterais */
+main {
+    border-left: 8px solid #ccc; /* Adiciona uma borda sólida de 5px à esquerda do conteúdo principal */
+    border-right: 8px solid #ccc; /* Adiciona uma borda sólida de 5px à direita do conteúdo principal */
+    box-sizing: border-box; /* Garante que a largura da borda seja incluída no cálculo total */
+}
+
+
+
+.single-item img {
+    width: 600px;
+    height: 300px;
+}
+
